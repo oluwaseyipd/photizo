@@ -41,7 +41,7 @@ body {
     margin: 20px 0;
   }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .section-title h2 {
     font-size: 30px;
   }
@@ -159,7 +159,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .navbar {
     position: fixed !important;
     top: 0 !important;
@@ -272,7 +272,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .hero-content {
     position: relative;
     top: 30%;
@@ -422,7 +422,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .why-join {
     padding: 80px 20px;
     display: flex;
@@ -567,7 +567,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .speakers {
     padding: 80px 20px;
     justify-content: center;
@@ -756,7 +756,7 @@ button:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .register {
     padding: 80px 20px;
     justify-content: center;
@@ -845,7 +845,7 @@ button:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .testimonial {
     padding: 80px 20px;
     justify-content: center;
