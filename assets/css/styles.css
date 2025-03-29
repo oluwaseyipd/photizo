@@ -933,6 +933,13 @@ footer {
 }
 
 .social-icons img {
-  width: 30px;
+  width: 50vh0px;
   margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .social-icons img {
+        width: 30px;
+        margin: 0 10px;
+      }
 }
