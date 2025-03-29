@@ -327,6 +327,19 @@ body {
   }
 }
 
+@media (max-width: 667px) {
+    .countdown p {
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        border: 2px solid #ff5733;
+        padding: 5px 10px;
+        background: transparent;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+      }
+}
 /*-------------------------------------
          Why Join Section 
 -------------------------------------*/
