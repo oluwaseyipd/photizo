@@ -246,6 +246,7 @@ body {
 .hero-content .date{
   color: #ff5733;
   margin-bottom: -40px;
+  font-weight: 400;
 }
 .hero-content h1 {
   font-size: 60px;
