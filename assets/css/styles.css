@@ -488,9 +488,14 @@ body {
       .about-content {
         margin-bottom: 50px;
       }
+   .benefit-box {
+        height: 280px;
+      }
+        .benefit-box p {
+        font-size: 18px;
+      }
       .numbering {
         position: relative;
-        height: 250px;
         bottom: -10px;
         right: -85%;
       }
@@ -508,6 +513,9 @@ body {
 
   .about-content {
     margin-bottom: 50px;
+  }
+    .about-content p{
+    margin-bottom: 16px;
   }
   .benefits {
     display: flex;
