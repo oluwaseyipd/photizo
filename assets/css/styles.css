@@ -508,14 +508,14 @@ body {
     flex-direction: column;
   }
   .why-join-title h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .about-content {
     margin-bottom: 50px;
   }
-    .about-content p{
-    margin-bottom: 16px;
+  .about-content p{
+    margin-bottom: 15px;
   }
   .benefits {
     display: flex;
