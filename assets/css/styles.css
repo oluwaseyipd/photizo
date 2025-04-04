@@ -71,7 +71,7 @@ body {
 }
 @media (max-width: 768px) {
   .hero {
-    height: 70vh;
+    height: 100vh;
   }
 }
 
@@ -312,7 +312,7 @@ body {
     font-size: 18px;
   }
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: -10px;
   }
 
@@ -320,8 +320,6 @@ body {
     font-size: 20px;
     margin-bottom: -5px;
   }
-
-
 
   .countdown {
     margin: 20px 0;
@@ -431,9 +429,9 @@ body {
   opacity: 0.4;
 }
 
-.benefit-box p {
+/* .benefit-box p {
   font-size: 18px;
-}
+} */
 
 .numbering {
   position: relative;
