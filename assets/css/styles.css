@@ -301,7 +301,7 @@ body {
 @media (max-width: 768px) {
   .hero-content {
     position: relative;
-    top: 30%;
+    top: 25%;
     width: 350px;
     padding: 0 20px;
   }
