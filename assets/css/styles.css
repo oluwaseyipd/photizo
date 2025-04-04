@@ -516,7 +516,7 @@ body {
     margin-bottom: 50px;
   }
   .about-content p{
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 13px;
   }
   .benefits {
@@ -530,13 +530,16 @@ body {
   .benefit-box p {
     font-size: 17px;
   }
-  .numbering {
+  .numbering{
+    display:none;
+  }
+  /* .numbering {
     position: relative;
     width: 80px;
     height: 80px;
     bottom: -8px;
     right: -90%;
-  }
+  } */
 }
 
 /*-------------------------------------
