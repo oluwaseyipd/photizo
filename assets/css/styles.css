@@ -490,6 +490,7 @@ body {
       }
       .numbering {
         position: relative;
+        height: 250px;
         bottom: -10px;
         right: -85%;
       }
