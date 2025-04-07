@@ -38,7 +38,7 @@ window.addEventListener("scroll", function () {
 // ------------------------------------
 
 // Set the target date (YYYY, MM - 1, DD, HH, MM, SS)
-const eventDate = new Date(2025, 4, 8, 17, 0, 0); 
+const eventDate = new Date(2025, 4, 22, 17, 0, 0); 
 
 function updateCountdown() {
     const now = new Date();
@@ -117,3 +117,37 @@ const swiper = new Swiper(".swiper", {
     },
 });
 
+
+// -------------------------------------
+//          Merchandise
+// ------------------------------------
+
+const orderBox = document.getElementById("orderBox");
+  const closeBtn = document.getElementById("closeOrderBox");
+  const orderButtons = document.querySelectorAll(".merchandise-box .btn");
+  const orderImg = document.getElementById("orderImg");
+  const shirtSizeField = document.getElementById("shirtSizeField");
+
+  orderButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const productBox = button.closest(".merchandise-box");
+      const productImg = productBox.querySelector("img").getAttribute("src");
+      const productName = button.getAttribute("data-product");
+
+      // Update the image in the modal
+      orderImg.setAttribute("src", productImg);
+
+      // Show or hide T-shirt size field
+      if (productName.toLowerCase().includes("t-shirt")) {
+        shirtSizeField.style.display = "block";
+      } else {
+        shirtSizeField.style.display = "none";
+      }
+
+      orderBox.classList.add("active");
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    orderBox.classList.remove("active");
+  });
