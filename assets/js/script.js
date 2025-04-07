@@ -97,25 +97,34 @@ showSuccessAlert();
 //          Testimonial
 // ------------------------------------
 
-const swiper = new Swiper(".swiper", {
-    loop: true,
-    spaceBetween: 10, // Allow a little spacing, not 0
-    centeredSlides: false, // Prevent half slides
-    slidesPerView: 1, // Default: 1 slide per view
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
+
+var swiper = new Swiper(".testimonial-tabs", {
+  spaceBetween: 35,
+  slidesPerView: 4,
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 7000, // Time between auto-swipes in milliseconds
+    disableOnInteraction: false, // Keep autoplay running after user interactions like swiping
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1
     },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+    575: {
+      slidesPerView: 1
     },
-    breakpoints: {
-      0: { slidesPerView: 1 },
-      768: { slidesPerView: 1 },
-      1024: { slidesPerView: 1 },
+    992: {
+      slidesPerView: 3
     },
+    1200: {
+      slidesPerView: 3
+    },
+  }
 });
+
+
+
 
 
 // -------------------------------------
