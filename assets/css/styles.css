@@ -1091,6 +1091,32 @@ button:hover {
     justify-content: center;
     align-items: center;
   }
+  .order-content {
+    max-height: 90vh; /* So it doesn't overflow the screen */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px; /* to prevent content from hiding behind scrollbar */
+  }
+  .order-content {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #aaa transparent; /* for Firefox */
+  }
+  
+  /* For WebKit browsers (Chrome, Safari) */
+  .order-content::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .order-content::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 6px;
+  }
+  
+  .order-content::-webkit-scrollbar-track {
+    background: transparent;
+  }
+    
 }
 
 /*-------------------------------------
